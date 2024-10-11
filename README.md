@@ -8,35 +8,28 @@
 ╚█████╔╝██████╔╝██║░░░██║░░░██║░░██║██║░╚███║
 ░╚════╝░╚═════╝░╚═╝░░░╚═╝░░░╚═╝░░╚═╝╚═╝░░╚══╝
 
+Hello! I'm a passionate SA-MP (San Andreas Multiplayer) developer with expertise in various programming languages and web technologies. Here, you'll find a collection of my projects, including plugins, scripts, and other contributions to the SA-MP community.
 
+## 🌟 Skills
 
-- 👋 Hi, I’m @Odiyandev
-- 👀 I’m A Samp Developer ...
-- 🌱 I’m Studying python,Java ...
-- 💞️ I Have a Samp Server Called Nexal Roleplay ...
-- 📫 My assistant (Nick,Dude,Cruvo,Sappu)and nrp admins ...
+- **Pawn:** Proficient in creating and optimizing scripts for SA-MP servers.
+- **HTML/CSS:** Experienced in building user-friendly web interfaces and web applications.
+- **Java:** Knowledgeable in developing applications and plugins that enhance functionality.
 
-<!---
-Odiyandev/Odiyandev is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+## 🛠️ Projects
 
-    DISCORD: 
-                                      ROLEPLAY SERVER : https://discord.gg/nexalrp
-                                        SERVER  HOSTING & SCRIPTS : https://discord.gg/nexalhost
+- check project section
+- 
+## 🌐 Connect with Me
 
-╭━╮╱╭╮╱╱╱╱╱╱╱╱╭╮
-┃┃╰╮┃┃╱╱╱╱╱╱╱╱┃┃
-┃╭╮╰╯┣━━┳╮╭┳━━┫┃
-┃┃╰╮┃┃┃━╋╋╋┫╭╮┃┃
-┃┃╱┃┃┃┃━╋╋╋┫╭╮┃╰╮
-╰╯╱╰━┻━━┻╯╰┻╯╰┻━╯
-╱╱╭╮╱╱╱╱╱╱╱╱╭╮╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╭╮
-╱╱┃┃╱╱╱╱╱╱╱╱┃┃╱╱╱╱╱╱╱╱╱╱╱╱╱╱╭╯╰╮
-╭━╯┣━━┳╮╭┳━━┫┃╭━━┳━━┳╮╭┳━━┳━╋╮╭╯
-┃╭╮┃┃━┫╰╯┃┃━┫┃┃╭╮┃╭╮┃╰╯┃┃━┫╭╮┫┃
-┃╰╯┃┃━╋╮╭┫┃━┫╰┫╰╯┃╰╯┃┃┃┃┃━┫┃┃┃╰╮
-╰━━┻━━╯╰╯╰━━┻━┻━━┫╭━┻┻┻┻━━┻╯╰┻━╯
-╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱┃┃
-╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╰╯
+Feel free to reach out if you have any questions, suggestions, or just want to connect!
+
+- **Email:** [afsalmkml@gmail.com](mailto:afsalmkml@gmail.com)
+- **instagram:** [odiyan](https://www.instagram.com/_odiyan._?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==)
+- **Discord:** 0diyan#3141
+
+## 🚀 Contributions
+
+I'm always open to collaborating on new projects or contributing to existing ones. If you have an idea or need help with your SA-MP server, don't hesitate to contact me!
+
 
