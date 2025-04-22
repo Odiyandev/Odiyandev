@@ -25,7 +25,6 @@ Hello! I'm a passionate SA-MP (San Andreas Multiplayer) developer with expertise
 Feel free to reach out if you have any questions, suggestions, or just want to connect!
 
 - **Email:** [afsalmkml@gmail.com](mailto:afsalmkml@gmail.com)
-- **instagram:** [odiyan](https://www.instagram.com/_odiyan._?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==)
 - **Discord:** 0diyan#3141
 
 ## 🚀 Contributions
