@@ -1,119 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>Cinematic SA-MP RPG – README</title>
-  <style>
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      background: #0f0f0f;
-      color: #f5f5f5;
-      padding: 30px;
-      line-height: 1.6;
-    }
-    h1, h2 {
-      color: #ffd700;
-    }
-    .section {
-      margin-bottom: 40px;
-    }
-    .feature {
-      background: #1a1a1a;
-      padding: 15px;
-      border-left: 4px solid #ffcc00;
-      margin-bottom: 10px;
-      border-radius: 5px;
-    }
-    code {
-      background: #333;
-      padding: 4px 8px;
-      border-radius: 4px;
-      color: #00ffcc;
-    }
-    .btn {
-      background: #ffcc00;
-      color: #000;
-      padding: 10px 20px;
-      text-decoration: none;
-      border-radius: 6px;
-      font-weight: bold;
-    }
-    .btn:hover {
-      background: #ffaa00;
-    }
-    .footer {
-      margin-top: 50px;
-      font-size: 14px;
-      color: #888;
-    }
-  </style>
+  <title>Cinematic SA-MP RPG Script - README</title>
 </head>
-<body>
+<body style="font-family: Arial, sans-serif; background-color: #111; color: #eee; padding: 20px;">
 
-  <h1>🎬 Cinematic SA-MP RPG – Dynamic Movie Server</h1>
-  <p>Bring Hollywood to San Andreas with a full-featured dynamic RPG script designed for cinematic storytelling, immersive missions, and RPG-driven character development.</p>
+  <h1 style="color: gold;">🎬 Cinematic SA-MP RPG – Script ReadMe</h1>
+  <p>A feature-packed SA-MP gamemode for dynamic movie creation, acting jobs, RPG leveling, and cinematic experiences.</p>
 
-  <div class="section">
-    <h2>🚀 Features</h2>
-    <div class="feature">🎥 <strong>Dynamic Movie System</strong> – Create and direct scenes with camera angles, fades, props, and actors.</div>
-    <div class="feature">🎭 <strong>RPG Character Classes</strong> – Become an Actor, Director, Cameraman, Editor, or even a Stuntman.</div>
-    <div class="feature">🏗️ <strong>Scene Builder</strong> – Setup in-game sets using a map editor interface and custom object spawns.</div>
-    <div class="feature">🎶 <strong>Soundtrack Support</strong> – Integrate music into scenes via dialog selections or preloaded sound IDs.</div>
-    <div class="feature">📽️ <strong>Scene Playback</strong> – Replay recorded scenes with actors' positions, animations, and dialogues.</div>
-    <div class="feature">💬 <strong>Cinematic Dialog System</strong> – Add immersive in-scene dialogues with timing and emotion triggers.</div>
-    <div class="feature">🎞️ <strong>Dynamic Role Assigning</strong> – Assign roles to players in real-time, handle auditions, and scene rehearsal.</div>
-    <div class="feature">🧠 <strong>MySQL + SQLite Support</strong> – All progress, scripts, and player data are saved securely.</div>
-  </div>
+  <h2 style="color: orange;">🚀 Features</h2>
+  <ul>
+    <li>Dynamic Scene & Movie Creation</li>
+    <li>Actor/Director/Cameraman RPG Roles</li>
+    <li>Cinematic Camera, Animations, and Dialogues</li>
+    <li>Custom Sets, Props & Scene Replays</li>
+    <li>Soundtrack Integration</li>
+    <li>MySQL-based persistent data system</li>
+  </ul>
 
-  <div class="section">
-    <h2>🔧 Installation</h2>
-    <ol>
-      <li>Clone the repository:
-        <pre><code>git clone https://github.com/youruser/cinematic-samp-rpg.git</code></pre>
-      </li>
-      <li>Import the SQL file to your MySQL server.</li>
-      <li>Edit your `server.cfg`:
-        <pre><code>gamemode0 cinematic 1<br>plugins mysql sscanf streamer</code></pre>
-      </li>
-      <li>Compile the script using Pawn Compiler.</li>
-      <li>Run your server and start directing!</li>
-    </ol>
-  </div>
+  <h2 style="color: orange;">💻 Localhost Installation</h2>
+  <ol>
+    <li>Download and install <b>XAMPP</b> or <b>WAMP</b> (for MySQL & PHPMyAdmin).</li>
+    <li>Start <b>Apache</b> and <b>MySQL</b> services.</li>
+    <li>Open <b>http://localhost/phpmyadmin</b></li>
+    <li>Create a new database, e.g., <code>cinematic_rpg</code></li>
+    <li>Import the provided <code>cinematic_rpg.sql</code> file into your database.</li>
+    <li>Open your SA-MP server folder and edit <code>server.cfg</code>:
+      <pre>
+plugins mysql sscanf streamer
+gamemode0 cinematic 1
+      </pre>
+    </li>
+    <li>Edit your script’s <code>mysql_connect</code> code:
+      <pre>
+mysql_connect("localhost", "root", "", "cinematic_rpg");
+      </pre>
+    </li>
+    <li>Compile the script using <b>pawno</b> or <b>sampctl</b>.</li>
+    <li>Run <code>samp-server.exe</code> and join via <code>127.0.0.1:7777</code> in SA-MP.</li>
+  </ol>
 
-  <div class="section">
-    <h2>📸 Example Commands</h2>
-    <pre>
-/scene create <scene_name>
-/scene addactor <playerid>
-/scene adddialog <text>
-/scene play
-/movie start
-/job director
-    </pre>
-  </div>
+  <h2 style="color: orange;">📜 Sample Commands</h2>
+  <ul>
+    <li><code>/scene create [name]</code> - Create new movie scene</li>
+    <li><code>/actor join</code> - Become an actor</li>
+    <li><code>/director tools</code> - Access camera and set tools</li>
+    <li><code>/scene play</code> - Start scene recording/playback</li>
+    <li><code>/job list</code> - View all cinematic jobs</li>
+  </ul>
 
-  <div class="section">
-    <h2>📂 Folder Structure</h2>
-    <pre>
-/gamemodes
-  cinematic.pwn
-/scriptfiles
-  scenes/
-  actors/
-  settings.ini
-/plugins
-  mysql.dll
-  streamer.dll
-    </pre>
-  </div>
+  <h2 style="color: orange;">📂 Script Structure</h2>
+  <ul>
+    <li><b>/gamemodes/cinematic.pwn</b> - Main game logic</li>
+    <li><b>/scriptfiles/scenes/</b> - Scene storage</li>
+    <li><b>/scriptfiles/settings.ini</b> - Configs</li>
+    <li><b>/plugins/</b> - mysql, streamer, sscanf</li>
+  </ul>
 
-  <div class="section">
-    <a href="https://github.com/youruser/cinematic-samp-rpg" class="btn">⭐ Star on GitHub</a>
-  </div>
+  <h2 style="color: orange;">📣 Notes</h2>
+  <ul>
+    <li>Default DB login: user = <code>root</code>, password = <code>(empty)</code></li>
+    <li>If using WAMP/XAMPP, make sure port 3306 is open for MySQL.</li>
+    <li>Don't forget to load plugins before script runs.</li>
+  </ul>
 
-  <div class="footer">
-    Made with 🎬 and 🧠 by <strong>Night Knight263 & Team</strong> | Powered by SA-MP
-  </div>
+  <hr>
+  <p>Made with ❤️ by <b>Night Knight263</b> | For SA-MP Community</p>
 
 </body>
 </html>
