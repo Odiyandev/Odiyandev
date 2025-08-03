@@ -6,56 +6,48 @@
     <title>SAMPCinematicRP README</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
             line-height: 1.6;
-            margin: 0;
-            padding: 20px;
+            color: #333;
             max-width: 800px;
-            margin-left: auto;
-            margin-right: auto;
-            background-color: #f9f9f9;
+            margin: 0 auto;
+            padding: 20px;
         }
         h1, h2, h3 {
-            color: #333;
+            color: #24292e;
         }
         h1 {
-            border-bottom: 2px solid #007bff;
+            border-bottom: 1px solid #eaecef;
             padding-bottom: 10px;
         }
-        h2 {
-            margin-top: 20px;
-        }
         pre, code {
-            background-color: #f4f4f4;
+            background-color: #f6f8fa;
+            border-radius: 6px;
             padding: 10px;
-            border-radius: 5px;
-            font-family: 'Courier New', Courier, monospace;
+            font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+            font-size: 85%;
         }
         pre {
             overflow-x: auto;
         }
-        ul {
-            margin: 10px 0;
-            padding-left: 20px;
-        }
         a {
-            color: #007bff;
+            color: #0366d6;
             text-decoration: none;
         }
         a:hover {
             text-decoration: underline;
         }
+        ul {
+            padding-left: 20px;
+        }
         .section {
             margin-bottom: 20px;
-        }
-        .code-block {
-            margin: 10px 0;
         }
     </style>
 </head>
 <body>
     <h1>SAMPCinematicRP</h1>
-    <p>SAMPCinematicRP is a roleplay-focused gamemode script for San Andreas Multiplayer (SA-MP), a multiplayer mod for Grand Theft Auto: San Andreas. This project provides a modular, optimized, and cinematic roleplay experience with features like dynamic character creation, faction systems, and immersive storytelling elements. It’s designed for server owners and scripters who want to create a rich, narrative-driven multiplayer environment.</p>
+    <p>SAMPCinematicRP is a roleplay-focused gamemode script for <a href="https://www.sa-mp.mp/">San Andreas Multiplayer (SA-MP)</a>, a multiplayer mod for Grand Theft Auto: San Andreas. This project offers a modular, optimized, and cinematic roleplay experience with dynamic character creation, faction systems, and immersive storytelling elements. It’s designed for server owners and scripters aiming to create a narrative-driven multiplayer environment.</p>
 
     <div class="section">
         <h2>Table of Contents</h2>
@@ -73,27 +65,27 @@
 
     <div class="section" id="general-info">
         <h2>General Info</h2>
-        <p>SAMPCinematicRP is a PAWN-based gamemode for SA-MP servers, emphasizing roleplay with cinematic elements like scripted cutscenes, dynamic dialogues, and interactive environments. Key features include:</p>
+        <p>SAMPCinematicRP is a PAWN-based gamemode for SA-MP servers, emphasizing roleplay with cinematic features like scripted cutscenes, dynamic dialogues, and interactive environments. Key features include:</p>
         <ul>
-            <li>MySQL database integration for persistent player and server data.</li>
-            <li>Modular design with separate include files for systems like vehicles, factions, and jobs.</li>
-            <li>Custom commands for roleplay interactions (e.g., <code>/me</code>, <code>/do</code>, <code>/changename</code>).</li>
-            <li>Support for cinematic sequences using camera functions and text draws.</li>
-            <li>Compatibility with SA-MP 0.3.7 and <a href="https://open.mp/">open.mp</a> (a backwards-compatible alternative).</li>
+            <li>MySQL integration for persistent player and server data.</li>
+            <li>Modular design with separate includes for vehicles, factions, and jobs.</li>
+            <li>Roleplay commands (e.g., <code>/me</code>, <code>/do</code>, <code>/changename</code>).</li>
+            <li>Cinematic sequences using camera functions and text draws.</li>
+            <li>Compatibility with SA-MP 0.3.7 and <a href="https://open.mp/">open.mp</a>.</li>
         </ul>
-        <p>This script is ideal for creating immersive roleplay servers with a focus on storytelling and player interaction.</p>
+        <p>This script is perfect for creating immersive roleplay servers with a focus on storytelling.</p>
     </div>
 
     <div class="section" id="technologies">
         <h2>Technologies</h2>
         <p>The project uses the following technologies:</p>
         <ul>
-            <li><a href="https://wiki.sa-mp.com/wiki/PAWN">PAWN</a>: Scripting language for SA-MP.</li>
-            <li><a href="https://www.mysql.com/">MySQL</a>: Version 5.7+ (via MySQL R41-4 plugin for data storage).</li>
+            <li><a href="https://wiki.sa-mp.com/wiki/PAWN">PAWN</a>: SA-MP scripting language.</li>
+            <li><a href="https://www.mysql.com/">MySQL</a>: Version 5.7+ (via MySQL R41-4 plugin).</li>
             <li><a href="https://www.sa-mp.mp/">SA-MP</a>: Version 0.3.7 or later.</li>
-            <li><a href="https://open.mp/">open.mp</a>: Optional, for enhanced server performance and features.</li>
-            <li><a href="https://github.com/Southclaws/sampctl">sampctl</a>: For dependency management and build tools.</li>
-            <li>Plugins: streamer, sscanf, mysql, crashdetect (included in <code>plugins/</code>).</li>
+            <li><a href="https://open.mp/">open.mp</a>: Optional, for enhanced performance.</li>
+            <li><a href="https://github.com/Southclaws/sampctl">sampctl</a>: Dependency management.</li>
+            <li>Plugins: streamer, sscanf, mysql, crashdetect.</li>
         </ul>
     </div>
 
@@ -102,24 +94,23 @@
         <p>Follow these steps to set up SAMPCinematicRP on your SA-MP server.</p>
         <h3>Prerequisites</h3>
         <ul>
-            <li>SA-MP server package (download from <a href="https://www.sa-mp.mp/">sa-mp.mp</a> or <a href="https://open.mp/">open.mp</a>).</li>
-            <li>MySQL server (local or hosted, version 5.7 or higher).</li>
-            <li>Git (optional, for cloning the repository).</li>
-            <li>sampctl (recommended, for dependency management).</li>
+            <li>SA-MP server package (<a href="https://www.sa-mp.mp/">sa-mp.mp</a> or <a href="https://open.mp/">open.mp</a>).</li>
+            <li>MySQL server (version 5.7+).</li>
+            <li>Git (optional).</li>
+            <li>sampctl (recommended).</li>
         </ul>
         <h3>Steps</h3>
-        <div class="code-block">
-            <pre><code># Clone the repository
+        <pre><code># Clone the repository
 $ git clone https://github.com/username/SAMPCinematicRP.git
 
 # Navigate to the project directory
 $ cd SAMPCinematicRP
 
-# Install dependencies using sampctl (recommended)
+# Install dependencies using sampctl
 $ sampctl package install
 
-# Configure MySQL settings in `scriptfiles/config.ini`
-# Example config.ini:
+# Configure MySQL in `scriptfiles/config.ini`
+# Example:
 # [mysql]
 # host = localhost
 # user = root
@@ -129,82 +120,73 @@ $ sampctl package install
 # Build the gamemode
 $ sampctl package build
 
-# Add the gamemode to server.cfg
-# Example server.cfg:
+# Update server.cfg
+# Example:
 # gamemode0 cinematicrp 1
 # plugins streamer sscanf mysql crashdetect
 </code></pre>
-        </div>
-        <p>Ensure the MySQL database is set up with the provided SQL schema in <code>scriptfiles/schema.sql</code>. Run the server executable (<code>samp-server.exe</code> or <code>openmp-server</code>) to start the server.</p>
+        <p>Import the SQL schema from <code>scriptfiles/schema.sql</code> into your MySQL database. Start the server using <code>samp-server.exe</code> or <code>openmp-server</code>.</p>
     </div>
 
     <div class="section" id="usage">
         <h2>Usage</h2>
-        <p>Once the server is running, players can connect using the SA-MP client. Below are some example commands for in-game roleplay and administration.</p>
+        <p>Players can connect via the SA-MP client. Below are example commands for roleplay and administration.</p>
         <h3>Player Commands</h3>
-        <div class="code-block">
-            <pre><code>/me [action] - Performs a roleplay action (e.g., /me waves at the crowd).
-/do [description] - Describes an environmental or character action (e.g., /do The room is dimly lit).
-/changename [newname] - Changes your character's roleplay name.
-/spawncar [model] - Spawns a vehicle (restricted to admins).
+        <pre><code>/me [action] - Performs an action (e.g., /me waves at the crowd).
+/do [description] - Describes an environment (e.g., /do The room is dimly lit).
+/changename [newname] - Changes your roleplay name.
+/spawncar [model] - Spawns a vehicle (admin-only).
 </code></pre>
-        </div>
         <h3>Admin Commands</h3>
-        <div class="code-block">
-            <pre><code>/setadmin [playerid] [level] - Sets a player's admin level (1-5).
-/kick [playerid] [reason] - Kicks a player from the server.
-/startcutscene [sceneid] - Triggers a predefined cinematic sequence.
+        <pre><code>/setadmin [playerid] [level] - Sets admin level (1-5).
+/kick [playerid] [reason] - Kicks a player.
+/startcutscene [sceneid] - Triggers a cinematic sequence.
 </code></pre>
-        </div>
-        <h3>Example Script Output</h3>
-        <p>An in-game interaction might look like this in the chat:</p>
-        <div class="code-block">
-            <pre><code>[RP] John_Doe: *waves at the crowd*
+        <h3>Example Output</h3>
+        <pre><code>[RP] John_Doe: *waves at the crowd*
 [RP] John_Doe: /do The crowd cheers loudly.
 John_Doe: Let's make this a night to remember!
 </code></pre>
-        </div>
-        <p>Check the <code>examples/</code> folder for sample cutscene scripts and faction configurations.</p>
+        <p>See the <code>examples/</code> folder for sample cutscenes and configurations.</p>
     </div>
 
     <div class="section" id="script-structure">
         <h2>Script Structure</h2>
-        <p>The gamemode is organized into modular include files for easy maintenance:</p>
+        <p>The gamemode is modular for easy maintenance:</p>
         <ul>
             <li><code>gamemodes/cinematicrp.pwn</code>: Main gamemode file.</li>
-            <li><code>includes/player.inc</code>: Player registration, login, and character systems.</li>
-            <li><code>includes/factions.inc</code>: Faction creation and management.</li>
-            <li><code>includes/vehicles.inc</code>: Vehicle spawning and customization.</li>
-            <li><code>includes/cutscenes.inc</code>: Cinematic camera and text draw functions.</li>
-            <li><code>scriptfiles/config.ini</code>: Server configuration (MySQL, settings).</li>
+            <li><code>includes/player.inc</code>: Player systems (registration, login).</li>
+            <li><code>includes/factions.inc</code>: Faction management.</li>
+            <li><code>includes/vehicles.inc</code>: Vehicle systems.</li>
+            <li><code>includes/cutscenes.inc</code>: Cinematic functions.</li>
+            <li><code>scriptfiles/config.ini</code>: Server configuration.</li>
         </ul>
-        <p>Key PAWN functions used include <code>TextDrawShowForPlayer</code>, <code>SetPlayerCameraPos</code>, and <code>mysql_tquery</code> for database interactions. Refer to the <a href="https://wiki.sa-mp.com/">SA-MP Wiki</a> for detailed function documentation.</p>
+        <p>Uses PAWN functions like <code>TextDrawShowForPlayer</code>, <code>SetPlayerCameraPos</code>, and <code>mysql_tquery</code>. See the <a href="https://wiki.sa-mp.com/">SA-MP Wiki</a> for details.</p>
     </div>
 
     <div class="section" id="contributing">
         <h2>Contributing</h2>
-        <p>We welcome contributions! To contribute:</p>
+        <p>To contribute:</p>
         <ol>
             <li>Fork the repository.</li>
-            <li>Create a new branch (<code>git checkout -b feature-branch</code>).</li>
-            <li>Make your changes and commit (<code>git commit -m "Add new feature"</code>).</li>
+            <li>Create a branch (<code>git checkout -b feature-branch</code>).</li>
+            <li>Commit changes (<code>git commit -m "Add feature"</code>).</li>
             <li>Push to your branch (<code>git push origin feature-branch</code>).</li>
-            <li>Open a pull request on GitHub.</li>
+            <li>Open a pull request.</li>
         </ol>
-        <p>Please follow the coding style in existing files and test your changes locally. See <code>CONTRIBUTING.md</code> for detailed guidelines.</p>
+        <p>Follow the coding style and test changes locally. See <code>CONTRIBUTING.md</code> for guidelines.</p>
     </div>
 
     <div class="section" id="license">
         <h2>License</h2>
-        <p>This project is licensed under the MIT License. See the <code>LICENSE</code> file for details.</p>
+        <p>Licensed under the MIT License. See <code>LICENSE</code> for details.</p>
     </div>
 
     <div class="section" id="contact">
         <h2>Contact</h2>
-        <p>For questions or collaboration, reach out via:</p>
         <ul>
             <li>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></li>
-            <li>GitHub Issues: <a href="https://github.com/username/SAMPCinematicRP/issues">SAMPCinematicRP Issues</a></li>
+            <li>GitHub Issues: <a href="https://github.com/username/SAMPCinematicRP/issues">Issues</a></li>
             <li>X: <a href="https://x.com/YourHandle">@YourHandle</a></li>
         </ul>
     </div>
