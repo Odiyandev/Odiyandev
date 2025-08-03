@@ -1,25 +1,119 @@
-# 💫 About Me:
-'m a passionate SA-MP (San Andreas Multiplayer) developer, always excited to share my work and collaborate with the community. I specialize in creating optimized, feature-packed scripts, plugins, and custom solutions to enhance the multiplayer experience.<br><br>🌟 Skills<br>Pawn: Developing efficient and optimized scripts for SA-MP servers.<br>HTML/CSS: Crafting clean and functional web designs and user interfaces.<br>Java: Building applications and plugins to expand server functionalities.<br>🔧 My Projects<br>SA-MP Server Plugins<br>Custom SA-MP Scripts<br>Web-based Tools & Scripts<br>And more...<br>Check out the Projects section for more information!<br><br>🌐 Let's Connect<br>Feel free to get in touch if you have any questions, ideas, or just want to chat!<br><br>Email: afsalmkml@gmail.com<br>Discord: 0diyan
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cinematic SA-MP RPG – README</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #0f0f0f;
+      color: #f5f5f5;
+      padding: 30px;
+      line-height: 1.6;
+    }
+    h1, h2 {
+      color: #ffd700;
+    }
+    .section {
+      margin-bottom: 40px;
+    }
+    .feature {
+      background: #1a1a1a;
+      padding: 15px;
+      border-left: 4px solid #ffcc00;
+      margin-bottom: 10px;
+      border-radius: 5px;
+    }
+    code {
+      background: #333;
+      padding: 4px 8px;
+      border-radius: 4px;
+      color: #00ffcc;
+    }
+    .btn {
+      background: #ffcc00;
+      color: #000;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+    }
+    .btn:hover {
+      background: #ffaa00;
+    }
+    .footer {
+      margin-top: 50px;
+      font-size: 14px;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
 
+  <h1>🎬 Cinematic SA-MP RPG – Dynamic Movie Server</h1>
+  <p>Bring Hollywood to San Andreas with a full-featured dynamic RPG script designed for cinematic storytelling, immersive missions, and RPG-driven character development.</p>
 
-# 💻 Tech Stack:
-![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white) ![Lua](https://img.shields.io/badge/lua-%232C2D72.svg?style=for-the-badge&logo=lua&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=odiyandev&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=odiyandev&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=odiyandev&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+  <div class="section">
+    <h2>🚀 Features</h2>
+    <div class="feature">🎥 <strong>Dynamic Movie System</strong> – Create and direct scenes with camera angles, fades, props, and actors.</div>
+    <div class="feature">🎭 <strong>RPG Character Classes</strong> – Become an Actor, Director, Cameraman, Editor, or even a Stuntman.</div>
+    <div class="feature">🏗️ <strong>Scene Builder</strong> – Setup in-game sets using a map editor interface and custom object spawns.</div>
+    <div class="feature">🎶 <strong>Soundtrack Support</strong> – Integrate music into scenes via dialog selections or preloaded sound IDs.</div>
+    <div class="feature">📽️ <strong>Scene Playback</strong> – Replay recorded scenes with actors' positions, animations, and dialogues.</div>
+    <div class="feature">💬 <strong>Cinematic Dialog System</strong> – Add immersive in-scene dialogues with timing and emotion triggers.</div>
+    <div class="feature">🎞️ <strong>Dynamic Role Assigning</strong> – Assign roles to players in real-time, handle auditions, and scene rehearsal.</div>
+    <div class="feature">🧠 <strong>MySQL + SQLite Support</strong> – All progress, scripts, and player data are saved securely.</div>
+  </div>
 
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=odiyandev&theme=cobalt&no-frame=false&no-bg=true&margin-w=4)
+  <div class="section">
+    <h2>🔧 Installation</h2>
+    <ol>
+      <li>Clone the repository:
+        <pre><code>git clone https://github.com/youruser/cinematic-samp-rpg.git</code></pre>
+      </li>
+      <li>Import the SQL file to your MySQL server.</li>
+      <li>Edit your `server.cfg`:
+        <pre><code>gamemode0 cinematic 1<br>plugins mysql sscanf streamer</code></pre>
+      </li>
+      <li>Compile the script using Pawn Compiler.</li>
+      <li>Run your server and start directing!</li>
+    </ol>
+  </div>
 
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=odiyandev&limit=5&theme=dark&combine_all_yearly_contributions=true)
+  <div class="section">
+    <h2>📸 Example Commands</h2>
+    <pre>
+/scene create <scene_name>
+/scene addactor <playerid>
+/scene adddialog <text>
+/scene play
+/movie start
+/job director
+    </pre>
+  </div>
 
----
-[![](https://visitcount.itsvg.in/api?id=odiyandev&icon=1&color=0)](https://visitcount.itsvg.in)
+  <div class="section">
+    <h2>📂 Folder Structure</h2>
+    <pre>
+/gamemodes
+  cinematic.pwn
+/scriptfiles
+  scenes/
+  actors/
+  settings.ini
+/plugins
+  mysql.dll
+  streamer.dll
+    </pre>
+  </div>
 
-  ## 💰 You can help me by Donating
-  [![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/odiyan) 
+  <div class="section">
+    <a href="https://github.com/youruser/cinematic-samp-rpg" class="btn">⭐ Star on GitHub</a>
+  </div>
 
-  
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+  <div class="footer">
+    Made with 🎬 and 🧠 by <strong>Night Knight263 & Team</strong> | Powered by SA-MP
+  </div>
+
+</body>
+</html>
