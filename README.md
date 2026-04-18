@@ -1,7 +1,7 @@
 # Afsal
 
 ## About
-SA-MP (San Andreas Multiplayer) developer focused on building optimized, feature-rich scripts and plugins. Experienced in developing efficient solutions and multiplayer server systems.
+Developer specializing in SA-MP (San Andreas Multiplayer) systems, with a focus on performance, scalability, and clean code. Experienced in building custom scripts, plugins, and backend tools that enhance multiplayer environments and server functionality.
 
 ---
 
@@ -10,6 +10,7 @@ SA-MP (San Andreas Multiplayer) developer focused on building optimized, feature
 ![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
 ![Lua](https://img.shields.io/badge/Lua-2C2D72?style=for-the-badge&logo=lua&logoColor=white)
+![JSON](https://img.shields.io/badge/JSON-000000?style=for-the-badge&logo=json&logoColor=white)
 
 ---
 
@@ -27,8 +28,8 @@ SA-MP (San Andreas Multiplayer) developer focused on building optimized, feature
 ---
 
 ## Contact
-- Email: afsalmkml@gmail.com  
-- Discord: 0diyan  
+![Email](https://img.shields.io/badge/Email-afsalmkml%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)
+![Discord](https://img.shields.io/badge/Discord-0diyan-5865F2?style=for-the-badge&logo=discord&logoColor=white)
 
 ---
 
