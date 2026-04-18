@@ -1,5 +1,5 @@
 #  About Me:
-'im a passionate SA-MP (San Andreas Multiplayer) developer, always excited to share my work and collaborate with the community. I specialize in creating optimized, feature-packed scripts, plugins, and custom solutions to enhance the multiplayer experience.<br><br>🌟 Skills<br>Pawn: Developing efficient and optimized scripts for SA-MP servers.<br>HTML/CSS: Crafting clean and functional web designs and user interfaces.<br>Java: Building applications and plugins to expand server functionalities.<br>🔧 My Projects<br>SA-MP Server Plugins<br>Custom SA-MP Scripts<br>Web-based Tools & Scripts<br>And more...<br>Check out the Projects section for more information!<br><br>🌐 Let's Connect<br>Feel free to get in touch if you have any questions, ideas, or just want to chat!<br><br>Email: afsalmkml@gmail.com<br>Discord: 0diyan
+'I'm a passionate SA-MP (San Andreas Multiplayer) developer, always excited to share my work and collaborate with the community. I specialize in creating optimized, feature-rich scripts, plugins, and custom solutions to enhance the multiplayer experience.<br><br>🌐 Let's Connect<br>Feel free to get in touch if you have any questions, ideas, or just want to chat!<br><br>Email: afsalmkml@gmail.com<br>Discord: 0diyan
 
 
 # 💻 Tech Stack:
