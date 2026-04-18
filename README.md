@@ -1,43 +1,50 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me</title>
-</head>
-<body style="font-family: Arial, sans-serif; line-height: 1.6;">
+<h1 align="center">Hi 👋, I'm Afsal</h1>
+<h3 align="center">SA-MP Developer | Script & Plugin Creator</h3>
 
-    <h2>🚀 About Me</h2>
-    <p>
-        I'm a passionate <strong>SA-MP (San Andreas Multiplayer) developer</strong>, always excited 
-        to share my work and collaborate with the community. I specialize in creating 
-        <strong>optimized, feature-rich scripts, plugins, and custom solutions</strong> 
-        to enhance the multiplayer experience.
-    </p>
+<p align="center">
+  <a href="mailto:afsalmkml@gmail.com">Email</a> •
+  <a href="#">Discord: 0diyan</a> •
+  <a href="https://buymeacoffee.com/odiyan">Support Me</a>
+</p>
 
-    <h2>🌐 Let's Connect</h2>
-    <p>
-        Feel free to get in touch if you have any questions, ideas, or just want to chat!
-    </p>
-    <ul>
-        <li>📧 Email: <a href="mailto:afsalmkml@gmail.com">afsalmkml@gmail.com</a></li>
-        <li>💬 Discord: 0diyan</li>
-    </ul>
+---
 
-    <h2>💻 Tech Stack</h2>
-    <p>
-        <img src="https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++">
-        <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python">
-        <img src="https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white" alt="PHP">
-        <img src="https://img.shields.io/badge/lua-%232C2D72.svg?style=for-the-badge&logo=lua&logoColor=white" alt="Lua">
-    </p>
+## 🚀 About Me
+<p>
+I'm a passionate <b>SA-MP (San Andreas Multiplayer) developer</b>, focused on building 
+optimized, feature-rich scripts, plugins, and custom solutions to enhance multiplayer experiences.
+</p>
 
-    <h2>💰 Support Me</h2>
-    <p>
-        <a href="https://buymeacoffee.com/odiyan" target="_blank">
-            <img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me a Coffee">
-        </a>
-    </p>
+---
 
-</body>
-</html>
+## 💻 Tech Stack
+<p align="center">
+  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54"/>
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Lua-2C2D72?style=for-the-badge&logo=lua&logoColor=white"/>
+</p>
+
+---
+
+## 📊 GitHub Stats
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAME&theme=tokyonight"/>
+</p>
+
+---
+
+## 🔥 Projects
+- SA-MP Server Plugins  
+- Custom Scripts  
+- Web Tools & Utilities  
+
+---
+
+## 💰 Support Me
+<p align="center">
+  <a href="https://buymeacoffee.com/odiyan">
+    <img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black"/>
+  </a>
+</p>
