@@ -28,8 +28,9 @@ Developer specializing in SA-MP (San Andreas Multiplayer) systems, with a focus 
 ---
 
 ## Contact
-![Email](https://img.shields.io/badge/Email-afsalmkml%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)
-![Discord](https://img.shields.io/badge/Discord-0diyan-5865F2?style=for-the-badge&logo=discord&logoColor=white)
+[![Email](https://img.shields.io/badge/Email-afsalmkml%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:afsalmkml@gmail.com)
+
+[![Discord](https://img.shields.io/badge/Discord-0diyan-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/users/816311949561430018)
 
 ---
 
